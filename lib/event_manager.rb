@@ -59,13 +59,15 @@ def save_thank_you_letter(id, form_letter)
   end
 end
 
-days = {0 => "Sunday",
+days = {
+  0 => "Sunday",
   1 => "Monday", 
   2 => "Tuesday",
   3 => "Wednesday",
   4 => "Thursday",
   5 => "Friday",
-  6 => "Saturday"}
+  6 => "Saturday"
+}
 
 file = "event_attendees.csv"
 
